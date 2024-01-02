@@ -1,0 +1,10 @@
+findDiff.py
+stitch.py
+nightruns.sh
+bootcamp/
+galaxyData/
+*.png
+*.swp
+*.pyc
+*.txt
+*.csv
