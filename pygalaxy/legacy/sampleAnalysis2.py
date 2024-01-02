@@ -1,8 +1,8 @@
 from galaxy import galaxy
-from galaxy.datagen import dataGen
-from galaxy.dividesample import divideSample
 from galaxy.agncount import agnCount
+from galaxy.datagen import dataGen
 from galaxy.densityplot import densityPlot
+from galaxy.dividesample import divideSample
 from galaxy.nearbyhist import nearbyHist
 
 # Grab the data to create our dictionary

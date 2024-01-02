@@ -1,7 +1,9 @@
+import math
+
+from astropy.utils.console import ProgressBar
 from galaxy import galaxy
 from galaxy.isblue import isBlue
-from astropy.utils.console import ProgressBar
-import math
+
 
 def findStats(groupList, groupName, galaxies, f):
 	r"""

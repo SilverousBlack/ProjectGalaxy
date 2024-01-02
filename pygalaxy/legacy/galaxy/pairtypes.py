@@ -1,5 +1,6 @@
 from galaxy import galaxy
 
+
 def pairTypes(galaxies, f):
 	r"""
 	Performs some statistical analysis on pairs of nearby galaxies

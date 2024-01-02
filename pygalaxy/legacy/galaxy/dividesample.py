@@ -1,6 +1,7 @@
 from galaxy import galaxy
 from galaxy.isblue import isBlue
 
+
 def divideSample(galaxies, f):
 	r"""
 	Divides the sample of galaxies into red and blue populations

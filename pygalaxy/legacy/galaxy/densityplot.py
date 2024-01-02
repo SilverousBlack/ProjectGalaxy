@@ -1,8 +1,10 @@
-from galaxy import galaxy
-import matplotlib.pyplot as plt
-from matplotlib.colors import LogNorm
 import time
+
+import matplotlib.pyplot as plt
 import numpy as np
+from galaxy import galaxy
+from matplotlib.colors import LogNorm
+
 
 def densityPlot(galaxies, f, xlim=None, ylim=None):
 	r"""

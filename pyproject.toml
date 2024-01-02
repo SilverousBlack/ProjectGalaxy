@@ -5,6 +5,15 @@ description = "Based on robertVonHolle's galaxyPackage (github.com/robertVonHoll
 authors = ["SilverousBlack <juliancalebsegundo@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [
+    { include="pygalaxy" },
+    { include="legacy", from="pygalaxy" },
+    { include="cli", from="clients" },
+    { include="web", from="clients" },
+]
+include = [
+    "pygalaxy/meta/*.*"
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -13,10 +22,12 @@ matplotlib = "^3.8.2"
 pandas = "^2.1.4"
 scipy = "^1.11.4"
 seaborn = "^0.13.1"
+jsonschema = "^4.20.0"
 
 [tool.poetry.group.dev.dependencies]
 autopep8 = "^2.0.4"
 isort = "^5.13.2"
+pytest = "^7.4.4"
 
 [build-system]
 requires = ["poetry-core"]

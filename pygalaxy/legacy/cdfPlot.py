@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-import seaborn as sns
 import pandas as pd
+import seaborn as sns
 
 withAGN = pd.read_csv('galaxyData/withAGN.csv')
 plt.figure(figsize=(8,6))

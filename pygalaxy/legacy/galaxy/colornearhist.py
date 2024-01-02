@@ -1,9 +1,10 @@
-from galaxy import galaxy
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.colors import LogNorm
 import scipy.stats as stats
 import seaborn as sns
+from galaxy import galaxy
+from matplotlib.colors import LogNorm
+
 #from scipy.stats import ks_2samp
 #from scipy.stats.rv_discrete import cdf
 

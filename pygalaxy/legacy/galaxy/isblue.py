@@ -1,5 +1,6 @@
 from galaxy import galaxy
 
+
 def isBlue(galaxy):
 	r"""
 	Determines if a galaxy is blue based on the u-r color divider

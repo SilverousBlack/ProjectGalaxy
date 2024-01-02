@@ -1,8 +1,9 @@
-from galaxy import galaxy
 import matplotlib.pyplot as plt
-from matplotlib.colors import LogNorm
-import scipy.stats as stats
 import numpy as np
+import scipy.stats as stats
+from galaxy import galaxy
+from matplotlib.colors import LogNorm
+
 
 def densityPlot_subsample(galaxies):
 

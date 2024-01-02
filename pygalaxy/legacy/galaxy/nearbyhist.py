@@ -1,7 +1,9 @@
+import math
+
+import matplotlib.pyplot as plt
 from galaxy import galaxy
 from galaxy.isblue import isBlue
-import matplotlib.pyplot as plt
-import math
+
 
 def nearbyHist(galaxies, f, dist, bins=10, makeNearbyFile=False):
 	r"""

@@ -1,6 +1,8 @@
-from galaxy import galaxy
 import math
+
 import numpy as np
+from galaxy import galaxy
+
 
 def colorMean(galaxies, f):
 	r"""

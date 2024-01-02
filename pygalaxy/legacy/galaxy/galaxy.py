@@ -1,5 +1,6 @@
-from math import log10
 from json import JSONEncoder
+from math import log10
+
 
 class galaxy:
 	r"""

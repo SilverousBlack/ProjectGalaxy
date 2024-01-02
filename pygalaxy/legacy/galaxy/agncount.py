@@ -1,5 +1,6 @@
 from galaxy.galaxy import galaxy
 
+
 def agnCount(galaxies, printCounts=False):
 	r"""
 	Counts the total number of each type of AGN in a set of galaxies
