@@ -1,8 +1,8 @@
+import configparser as cp
+import json
 import pathlib as pl
 import typing
 
-import configparser as cp
-import json
 import jsonschema
 
 __module_init_flag = False

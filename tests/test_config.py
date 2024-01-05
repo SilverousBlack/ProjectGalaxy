@@ -1,5 +1,6 @@
 import pytest
 
+
 class TestConfiguration:
     def test_default(self):
         from pygalaxy.core import config

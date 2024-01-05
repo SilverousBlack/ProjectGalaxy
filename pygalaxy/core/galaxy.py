@@ -2,6 +2,7 @@ import typing
 
 from .meta import FloatRanged
 
+
 class Galaxy:
     pass
 
