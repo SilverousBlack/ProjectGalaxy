@@ -5,6 +5,8 @@
 		}
 	],
 	"settings": {
-		"editor.wordWrap": "on"
+		"editor.wordWrap": "on",
+		"latex-workshop.latex.autoBuild.run": "onSave",
+		"latex-workshop.latex.autoClean.run": "onBuilt"
 	}
 }
